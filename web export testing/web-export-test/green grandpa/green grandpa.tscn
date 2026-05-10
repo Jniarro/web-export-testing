@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://nv8xakdsxaig"]
+
+[ext_resource type="Texture2D" uid="uid://cp52w2bqn6i8p" path="res://green grandpa/0503_0002.png" id="1_vcuy3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tm00c"]
+size = Vector2(149, 191)
+
+[node name="GreenGrandpa" type="Node2D" unique_id=1397883082]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2041189181]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_vcuy3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1923142320]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_tm00c")

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ckgefqun4h6wl"]
+
+[ext_resource type="PackedScene" uid="uid://nv8xakdsxaig" path="res://green grandpa/green grandpa.tscn" id="1_0k8t0"]
+
+[node name="GameSceneOne" type="Node2D" unique_id=587080603]
+
+[node name="GreenGrandpa" parent="." unique_id=1397883082 instance=ExtResource("1_0k8t0")]
+position = Vector2(576, 324)
+
+[node name="GreenGrandpa2" parent="." unique_id=1686086073 instance=ExtResource("1_0k8t0")]
+position = Vector2(1148, 292)
